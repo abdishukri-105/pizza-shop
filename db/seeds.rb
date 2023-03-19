@@ -77,5 +77,6 @@ restaurant_names = [
       pizza = Pizza.create(name: pizza_name, ingredient: pizza_ingredient)
       restaurant.restaurant_pizzas.create(pizza: pizza, price: rand(1..30))
     end
+
   end
   
