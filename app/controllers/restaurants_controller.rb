@@ -6,7 +6,6 @@ class RestaurantsController < ApplicationController
         render json: restaurants.to_json(except: [:created_at, :updated_at])
     end
   
-  
     def show
       restaurant = find_restaurant
       render json: restaurant.to_json(only: [:id, :name, :address], include: [pizzas: { except: [:created_at, :updated_at]}])
@@ -33,7 +32,6 @@ class RestaurantsController < ApplicationController
       render json: { error: "restaurant not found" }, status: :not_found
     end
   
-
 end
 
 
