@@ -1,7 +1,8 @@
 # PizzaShop
 This is a pizzashop API built with Ruby on Rails. It features three models: Restaurant, Pizza, and RestaurantPizza. The Restaurant model has a name and an address, while the Pizza model has a name and an ingredient. The RestaurantPizza model serves as a join table between Restaurant and Pizza, and has a price attribute.
 
-
+## live link
+   - [live link](https://pizza-shop-es0c.onrender.com)
 
 ## Topics
 - Models
